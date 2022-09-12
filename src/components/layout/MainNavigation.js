@@ -8,12 +8,12 @@ const MainNavigation = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink to="/quotes" activeClassName={classes.active}>
+            <NavLink to="/react-router-project/quotes" activeClassName={classes.active}>
               All quotes
             </NavLink>
           </li>
           <li>
-            <NavLink to="/new-quote" activeClassName={classes.active}>
+            <NavLink to="/react-router-project/new-quote" activeClassName={classes.active}>
               Add a new quote
             </NavLink>
           </li>

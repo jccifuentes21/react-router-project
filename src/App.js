@@ -9,16 +9,16 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" exact>
-          <Redirect to="/quotes" />
+        <Route path="/react-router-project/" exact>
+          <Redirect to="/react-router-project/quotes" />
         </Route>
-        <Route path="/quotes" exact>
+        <Route path="/react-router-project/quotes" exact>
           <AllQuotes />
         </Route>
-        <Route path="/quotes/:quoteId">
+        <Route path="/react-router-project/quotes/:quoteId">
           <QuoteDetail />
         </Route>
-        <Route path="/new-quote">
+        <Route path="/react-router-project/new-quote">
           <NewQuote />
         </Route>
         <Route path="*">
